@@ -57,10 +57,15 @@ For this scenario let us consider X as the maximizer and O as the minimizer.
 Let us build our evaluation function :
 
 If X wins on the board we give it a positive value of +10.
+
 <img src = "https://media.geeksforgeeks.org/wp-content/uploads/TicTacToe.png"/>
+
 If O wins on the board we give it a negative value of -10.
+
 <img src = "https://media.geeksforgeeks.org/wp-content/uploads/TicTacToe1.png"/>
+
 If no one has won or the game results in a draw then we give a value of +0.
+
 <img src = "https://media.geeksforgeeks.org/wp-content/uploads/TicTacToe2-1.png"/>
 
 We could have chosen any positive / negative value other than 10. For the sake of simplicity we chose 10 for the sake of simplicity we shall use lower case ‘x’ and lower case ‘o’ to represent the players and an underscore ‘_’ to represent a blank space on the board.
@@ -138,4 +143,12 @@ if maximizer has won:
 else if minimizer has won:
     return LOOSE_SCORE + depth
 ```
+
+
+### References
+
+https:www.geeksforgeeks.org
+https://en.wikipedia.org/wiki/Minimax
+https://www.youtube.com/user/shiffman
+
 
